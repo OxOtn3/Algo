@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3",
+    "code-runner.executorMap": {
+		"python": "python3 -u",
+	}
+}
