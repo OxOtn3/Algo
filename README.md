@@ -7,3 +7,9 @@
 - `Dijkstra`
   - 朴素
   - 堆优化
+
+## Trie
+- 小写字母的 `Trie`
+
+## Union-Find
+- `Union-Find` (find优化)
