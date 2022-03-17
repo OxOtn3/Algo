@@ -32,13 +32,14 @@
 - `Shell's Sort`
 
 ## 二叉树
-- 迭代遍历
+- 迭代遍历（基于栈）
   - 前序
   - 中序
   - 后序
+- `Morris`
 
 ## 蓄水池抽样
-- `Reservoir  Sampling`
+- `Reservoir Sampling`
   - 分布式场景下
   - https://www.jianshu.com/p/7a9ea6ece2af
 
