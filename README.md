@@ -13,3 +13,6 @@
 
 ## 并查集
 - `Union-Find` (find优化)
+
+## 树状数组
+- `Fenwick-Tree`
