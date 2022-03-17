@@ -1,6 +1,4 @@
-from time import sleep
-
-
+# 树状数组
 class FenwickTree:
     def __init__(self, n = 0, nums = []):
         self.len = n
