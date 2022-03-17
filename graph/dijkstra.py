@@ -13,9 +13,15 @@ def dijkstra_1(n: int, graph: List[List[int]], start: int) -> List[int]:
     dis = [float('inf')] * n
     dis[start] = 0
     visited = [False] * n
-
-    
-    return
+    for i in range(1, n + 1):
+        u, m = 0, float('inf')
+        for j in range(1, n + 1):
+            if not visited[j] and dis[j] < m:
+                u, m = j, dis[j]
+        visited[i] = True
+        for v, w in enumerate(graph[u]):
+            dis[v] = min(dis[v], dis[u] + w)
+    return dis
 
 # 2.堆优化（邻接表）
 # 时间O(mlogn), 空间O(m)

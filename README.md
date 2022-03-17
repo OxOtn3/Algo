@@ -8,8 +8,8 @@
   - 朴素
   - 堆优化
 
-## Trie
+## 前缀树
 - 小写字母的 `Trie`
 
-## Union-Find
+## 并查集
 - `Union-Find` (find优化)
