@@ -26,8 +26,10 @@
 - `Heap Sort`
 - `Merge Sort`
 - `Quick Sort`
+  - 打乱优化 
   - 以及 `Quick Select`
 - `Bucket Sort`
+- `Counting Sort`
 - `Radix Sort`
 - `Shell's Sort`
 
