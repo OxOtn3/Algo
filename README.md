@@ -61,3 +61,13 @@
 - `Calculator`
   - 加减乘除
   - 括号
+
+## 背包问题
+- `0-1`
+  - 空间优化
+- `Unbounded` 完全背包
+  - 时间、空间优化
+- `Multi-Objective` 多重背包
+  - 二进制优化
+  - 优先队列优化
+- `Multidimensional` 多维背包
