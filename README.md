@@ -43,7 +43,6 @@
 ## 蓄水池抽样
 - `Reservoir Sampling`
   - 分布式场景下
-  - https://www.jianshu.com/p/7a9ea6ece2af
 
 ## 数学
 - `Fast Power` 快速幂
