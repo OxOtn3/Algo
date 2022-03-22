@@ -55,6 +55,9 @@
   - `pop()` 操作从堆栈中弹出出现频率最高的元素
 - `Randomized Set` 
   - O(1) 时间插入、删除、获取随机元素
+- `SnapshotArray` 快照数组
+  - snap()获取该数组的快照，并返回快照的编号
+  - get(index, snap_id) - 根据指定的 snap_id 选择快照，并返回该快照指定索引 index 的值。
 
 ## 计算器
 - `Calculator`
