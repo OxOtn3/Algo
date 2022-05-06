@@ -24,7 +24,7 @@
 
 def bellmanford(n, start):
     e = [[(0, 0) for i in range(n)] for j in range(n)]
-    dis = [63] * n
+    dis = [float('inf')] * n
     dis[start] = 0
     for i in range(1, n + 1):
         flag = False

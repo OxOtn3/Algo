@@ -4,10 +4,10 @@ class UF:
         self.compo = sz
 
     def find(self, x):
-        if x == self.parent[x]:
-            return x
-        self.parent[x] = self.find(self.parent[x])
-        return self.parent[x]
+        while self.parent[x] != x:
+            self.parent[x] = self.parent[self.parent[x]]
+            x = self.parent[x]
+        return x
 
     def union(self, x, y):
         xRoot, yRoot = self.find(x), self.find(y)

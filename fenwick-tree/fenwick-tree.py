@@ -5,7 +5,7 @@ class FenwickTree:
         self.tree = [0] * (n + 1)
         if nums:
             for i in range(1, n + 1):
-                self.update(i, nums[i])
+                self.update(i, nums[i-1])
     
     # 单点更新
     # 从子节点向父节点逐层更新（根据t[x]父节点为t[x+lowbit(x)]）
@@ -26,5 +26,5 @@ class FenwickTree:
             i -= self.lowbit(i)
         return sum
 
-    def lowbit(x):
+    def lowbit(self, x):
         return x & (-x)
